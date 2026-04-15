@@ -7,11 +7,6 @@ It demonstrates how real-world backend systems handle **state, concurrency, timi
 
 ## 🚀 What Makes This Project Different?
 
-Most student projects:
-- ❌ CRUD apps  
-- ❌ Single-threaded logic  
-- ❌ Stateless APIs  
-
 QuizStorm focuses on:
 
 - ⚡ Process-based concurrency (not threads)
