@@ -21,15 +21,15 @@ QuizStorm focuses on:
 
 Application (Entry point)
  
-   ↓
+      ↓
 
 Supervisor (RoomSupervisor)
 
-   ↓
+      ↓
 
 Dynamic Workers (GameServer per room)
 
-   ↑
+      ↑
 
 Registry (room_name → PID mapping)
 
