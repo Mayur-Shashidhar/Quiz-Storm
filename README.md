@@ -70,11 +70,17 @@ Process.send_after(self(), :end_question, 10_000)
 
 quiz_engine/
 ├── lib/
+
 │   ├── game_server.ex
+
 │   ├── room_supervisor.ex
+
 │   ├── room_manager.ex
+
 │   └── quiz_engine/application.ex
+
 ├── mix.exs
+
 └── README.md
 
 ---
