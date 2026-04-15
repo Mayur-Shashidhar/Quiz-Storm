@@ -20,11 +20,17 @@ QuizStorm focuses on:
 ## 🏗️ System Architecture
 
 Application (Entry point)
+ 
    ↓
+
 Supervisor (RoomSupervisor)
+
    ↓
+
 Dynamic Workers (GameServer per room)
+
    ↑
+
 Registry (room_name → PID mapping)
 
 ---
